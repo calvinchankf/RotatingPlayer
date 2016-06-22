@@ -72,6 +72,91 @@
             </objects>
             <point key="canvasLocation" x="244.5" y="341.25"/>
         </scene>
+        <!--Rotating View Controller-->
+        <scene sceneID="aeA-Vo-yeP">
+            <objects>
+                <viewController id="Rud-9J-xBd" customClass="RotatingViewController" customModule="RotatingPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cyU-1N-O99"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mb3-13-TH9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DMl-e8-SUN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5ka-lE-fjy">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="5ka-lE-fjy" secondAttribute="height" multiplier="16:9" id="1qE-02-0Cg"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1qE-02-0Cg"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="1qE-02-0Cg"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Mb3-13-TH9" firstAttribute="top" secondItem="5ka-lE-fjy" secondAttribute="bottom" id="585-zj-4nd"/>
+                            <constraint firstItem="5ka-lE-fjy" firstAttribute="top" secondItem="cyU-1N-O99" secondAttribute="bottom" id="IDt-i6-IwF"/>
+                            <constraint firstItem="5ka-lE-fjy" firstAttribute="leading" secondItem="DMl-e8-SUN" secondAttribute="leading" id="Zw8-bM-BN8"/>
+                            <constraint firstItem="5ka-lE-fjy" firstAttribute="leading" secondItem="DMl-e8-SUN" secondAttribute="leading" id="c1u-EN-6Ym"/>
+                            <constraint firstAttribute="trailing" secondItem="5ka-lE-fjy" secondAttribute="trailing" id="hHt-zY-whp"/>
+                            <constraint firstAttribute="trailing" secondItem="5ka-lE-fjy" secondAttribute="trailing" id="vQX-vb-zqZ"/>
+                            <constraint firstItem="5ka-lE-fjy" firstAttribute="top" secondItem="cyU-1N-O99" secondAttribute="bottom" id="x3e-vc-yag"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="5ka-lE-fjy"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="585-zj-4nd"/>
+                                <exclude reference="IDt-i6-IwF"/>
+                                <exclude reference="Zw8-bM-BN8"/>
+                                <exclude reference="c1u-EN-6Ym"/>
+                                <exclude reference="hHt-zY-whp"/>
+                                <exclude reference="vQX-vb-zqZ"/>
+                                <exclude reference="x3e-vc-yag"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="subviews">
+                                <include reference="5ka-lE-fjy"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="585-zj-4nd"/>
+                                <include reference="IDt-i6-IwF"/>
+                                <include reference="c1u-EN-6Ym"/>
+                                <include reference="vQX-vb-zqZ"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="5ka-lE-fjy"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Zw8-bM-BN8"/>
+                                <include reference="hHt-zY-whp"/>
+                                <include reference="x3e-vc-yag"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="playerContainer" destination="5ka-lE-fjy" id="ues-kf-Pdi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZd-BB-G7e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="244" y="1093.5"/>
+        </scene>
         <!--Detail View Controller-->
         <scene sceneID="lrM-pr-uls">
             <objects>

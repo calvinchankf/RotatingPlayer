@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3E95A4A11D1A671700844B6B /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3E95A4A01D1A671700844B6B /* test.mp4 */; };
+		3E95A4A51D1A786300844B6B /* RotatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95A4A41D1A786300844B6B /* RotatingViewController.swift */; };
 		3EB267F31D143F7B0013546A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB267F21D143F7B0013546A /* AppDelegate.swift */; };
 		3EB267F51D143F7B0013546A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB267F41D143F7B0013546A /* HomeViewController.swift */; };
 		3EB267F81D143F7B0013546A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB267F61D143F7B0013546A /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		3E95A4A01D1A671700844B6B /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
+		3E95A4A41D1A786300844B6B /* RotatingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatingViewController.swift; sourceTree = "<group>"; };
 		3EB267EF1D143F7B0013546A /* RotatingPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotatingPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB267F21D143F7B0013546A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EB267F41D143F7B0013546A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				3EB2680C1D14EE9D0013546A /* PlayerControllerView.swift */,
 				3EB2680E1D14EEAC0013546A /* PlayerControllerView.xib */,
 				3EB268101D14F9090013546A /* ScreenHelper.swift */,
+				3E95A4A41D1A786300844B6B /* RotatingViewController.swift */,
 			);
 			path = RotatingPlayer;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			files = (
 				3EB267F51D143F7B0013546A /* HomeViewController.swift in Sources */,
 				3EB267F31D143F7B0013546A /* AppDelegate.swift in Sources */,
+				3E95A4A51D1A786300844B6B /* RotatingViewController.swift in Sources */,
 				3EB268091D14EDAD0013546A /* LandscapeViewController.swift in Sources */,
 				3EB2680B1D14EE200013546A /* PlayerView.swift in Sources */,
 				3EB268051D1459670013546A /* PortraitNavViewController.swift in Sources */,
