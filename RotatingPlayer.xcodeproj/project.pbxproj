@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E95A4A11D1A671700844B6B /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3E95A4A01D1A671700844B6B /* test.mp4 */; };
+		3E95A4A31D1A6DBC00844B6B /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E95A4A21D1A6DBC00844B6B /* demo.gif */; };
 		3EB267F31D143F7B0013546A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB267F21D143F7B0013546A /* AppDelegate.swift */; };
-		3EB267F51D143F7B0013546A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB267F41D143F7B0013546A /* ViewController.swift */; };
+		3EB267F51D143F7B0013546A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB267F41D143F7B0013546A /* HomeViewController.swift */; };
 		3EB267F81D143F7B0013546A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB267F61D143F7B0013546A /* Main.storyboard */; };
 		3EB267FA1D143F7B0013546A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EB267F91D143F7B0013546A /* Assets.xcassets */; };
 		3EB267FD1D143F7B0013546A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB267FB1D143F7B0013546A /* LaunchScreen.storyboard */; };
+		3EB268051D1459670013546A /* PortraitNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB268041D1459670013546A /* PortraitNavViewController.swift */; };
+		3EB268071D14ED5F0013546A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB268061D14ED5F0013546A /* DetailViewController.swift */; };
+		3EB268091D14EDAD0013546A /* LandscapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB268081D14EDAD0013546A /* LandscapeViewController.swift */; };
+		3EB2680B1D14EE200013546A /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB2680A1D14EE200013546A /* PlayerView.swift */; };
+		3EB2680D1D14EE9D0013546A /* PlayerControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB2680C1D14EE9D0013546A /* PlayerControllerView.swift */; };
+		3EB2680F1D14EEAC0013546A /* PlayerControllerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EB2680E1D14EEAC0013546A /* PlayerControllerView.xib */; };
+		3EB268111D14F9090013546A /* ScreenHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB268101D14F9090013546A /* ScreenHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E95A4A01D1A671700844B6B /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
+		3E95A4A21D1A6DBC00844B6B /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 		3EB267EF1D143F7B0013546A /* RotatingPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotatingPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB267F21D143F7B0013546A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3EB267F41D143F7B0013546A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EB267F41D143F7B0013546A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3EB267F71D143F7B0013546A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EB267F91D143F7B0013546A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EB267FC1D143F7B0013546A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EB267FE1D143F7B0013546A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EB268041D1459670013546A /* PortraitNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortraitNavViewController.swift; sourceTree = "<group>"; };
+		3EB268061D14ED5F0013546A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3EB268081D14EDAD0013546A /* LandscapeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandscapeViewController.swift; sourceTree = "<group>"; };
+		3EB2680A1D14EE200013546A /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		3EB2680C1D14EE9D0013546A /* PlayerControllerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerControllerView.swift; sourceTree = "<group>"; };
+		3EB2680E1D14EEAC0013546A /* PlayerControllerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerControllerView.xib; sourceTree = "<group>"; };
+		3EB268101D14F9090013546A /* ScreenHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +73,20 @@
 			isa = PBXGroup;
 			children = (
 				3EB267F21D143F7B0013546A /* AppDelegate.swift */,
-				3EB267F41D143F7B0013546A /* ViewController.swift */,
+				3EB267F41D143F7B0013546A /* HomeViewController.swift */,
 				3EB267F61D143F7B0013546A /* Main.storyboard */,
 				3EB267F91D143F7B0013546A /* Assets.xcassets */,
 				3EB267FB1D143F7B0013546A /* LaunchScreen.storyboard */,
 				3EB267FE1D143F7B0013546A /* Info.plist */,
+				3E95A4A01D1A671700844B6B /* test.mp4 */,
+				3EB268041D1459670013546A /* PortraitNavViewController.swift */,
+				3EB268061D14ED5F0013546A /* DetailViewController.swift */,
+				3EB268081D14EDAD0013546A /* LandscapeViewController.swift */,
+				3EB2680A1D14EE200013546A /* PlayerView.swift */,
+				3EB2680C1D14EE9D0013546A /* PlayerControllerView.swift */,
+				3EB2680E1D14EEAC0013546A /* PlayerControllerView.xib */,
+				3EB268101D14F9090013546A /* ScreenHelper.swift */,
+				3E95A4A21D1A6DBC00844B6B /* demo.gif */,
 			);
 			path = RotatingPlayer;
 			sourceTree = "<group>";
@@ -123,7 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EB267FD1D143F7B0013546A /* LaunchScreen.storyboard in Resources */,
+				3E95A4A31D1A6DBC00844B6B /* demo.gif in Resources */,
+				3EB2680F1D14EEAC0013546A /* PlayerControllerView.xib in Resources */,
 				3EB267FA1D143F7B0013546A /* Assets.xcassets in Resources */,
+				3E95A4A11D1A671700844B6B /* test.mp4 in Resources */,
 				3EB267F81D143F7B0013546A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +165,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EB267F51D143F7B0013546A /* ViewController.swift in Sources */,
+				3EB267F51D143F7B0013546A /* HomeViewController.swift in Sources */,
 				3EB267F31D143F7B0013546A /* AppDelegate.swift in Sources */,
+				3EB268091D14EDAD0013546A /* LandscapeViewController.swift in Sources */,
+				3EB2680B1D14EE200013546A /* PlayerView.swift in Sources */,
+				3EB268051D1459670013546A /* PortraitNavViewController.swift in Sources */,
+				3EB268111D14F9090013546A /* ScreenHelper.swift in Sources */,
+				3EB2680D1D14EE9D0013546A /* PlayerControllerView.swift in Sources */,
+				3EB268071D14ED5F0013546A /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +322,7 @@
 				3EB268031D143F7B0013546A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

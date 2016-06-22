@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PlayerControllerView" customModule="RotatingPlayer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="225"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="av9-8N-N2x" customClass="PlayerView" customModule="RotatingPlayer" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="400" height="225"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cV-5u-cp4">
+                    <rect key="frame" x="340" y="185" width="60" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="lfc-Ms-zdn"/>
+                        <constraint firstAttribute="width" constant="60" id="vqP-SU-zeH"/>
+                    </constraints>
+                    <state key="normal" title="toggle"/>
+                    <connections>
+                        <action selector="sizeTogglePressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="WGD-E0-7j4"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="3cV-5u-cp4" secondAttribute="trailing" id="7lT-Og-fjb"/>
+                <constraint firstAttribute="trailing" secondItem="av9-8N-N2x" secondAttribute="trailing" id="7tj-oy-Vma"/>
+                <constraint firstAttribute="bottom" secondItem="av9-8N-N2x" secondAttribute="bottom" id="Ebr-rX-xdr"/>
+                <constraint firstItem="av9-8N-N2x" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="SB1-DV-xFW"/>
+                <constraint firstAttribute="bottom" secondItem="3cV-5u-cp4" secondAttribute="bottom" id="TTg-J2-2cI"/>
+                <constraint firstItem="av9-8N-N2x" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="fVw-ig-Yyn"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="playerView" destination="av9-8N-N2x" id="EOz-Jg-wma"/>
+                <outlet property="sizeToggleButton" destination="3cV-5u-cp4" id="lmk-yC-obQ"/>
+            </connections>
+            <point key="canvasLocation" x="243" y="354.5"/>
+        </view>
+    </objects>
+</document>
